@@ -26,6 +26,7 @@ int main()
             p[k] = p[n];
             p[n] = pomoc;
         }
+
         cout << p[k] << " ";
     }
 }
