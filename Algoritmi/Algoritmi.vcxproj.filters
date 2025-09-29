@@ -18,5 +18,8 @@
     <ClCompile Include="Binarno_Pretrazivanje.cpp">
       <Filter>Header Files</Filter>
     </ClCompile>
+    <ClCompile Include="Binrano_Sortiranje.cpp">
+      <Filter>Header Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
