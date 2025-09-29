@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int p[20] = {};
-    int k, t, n;
+    int k, n, t;
 
     for (int i = 0; i < 20; i++)
         p[i] = rand() % 100;
