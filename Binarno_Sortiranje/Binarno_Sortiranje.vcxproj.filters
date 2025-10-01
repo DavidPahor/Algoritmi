@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Algoritmi\Binrano_Sortiranje.cpp">
+    <ClCompile Include="Binarno_Sortiranje.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
