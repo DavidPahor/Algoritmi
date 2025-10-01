@@ -1,20 +1,35 @@
-// Binarno_Pretrazivanje.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <stdio.h>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int x = 25 + 1;
+	int p[10] = { 1,3,6,8,9,10,15,20,25,26 };
+	int d = 0;
+	int g = 9;
+	bool pronaden = false;
+	while (1)
+	{
+		int s = (d + g) / 2;
+		if (p[s] == x)
+		{
+			pronaden = true;
+			break;
+		}
+
+		if (d > g)
+		{
+			break;
+		}
+		if (p[s] > x)
+		{
+			g = s - 1;
+		}
+		if (p[s] < x)
+		{
+			d = s + 1;
+		}
+	}
+	cout << pronaden;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
