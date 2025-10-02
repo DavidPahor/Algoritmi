@@ -2,7 +2,7 @@
 #include <stdio.h>
 using namespace std;
 
-int main()
+int main3()
 {
 	int p[10] = { 10,9,8,7,6,5,4,3,2,1 };
 	int n = 0;

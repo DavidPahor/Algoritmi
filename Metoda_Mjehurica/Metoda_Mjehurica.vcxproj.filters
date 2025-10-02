@@ -21,5 +21,11 @@
     <ClCompile Include="Samo_Parni.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Mjehhurici_Stupci.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stringovi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

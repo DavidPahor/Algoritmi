@@ -124,7 +124,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Metoda_Mjehurica.cpp" />
+    <ClCompile Include="Mjehhurici_Stupci.cpp" />
     <ClCompile Include="Samo_Parni.cpp" />
+    <ClCompile Include="Stringovi.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
