@@ -19,13 +19,11 @@ int main()
 
             if (p[t] < p[n])
                 n = t;
-
-
-            int pomoc;
-            pomoc = p[k];
-            p[k] = p[n];
-            p[n] = pomoc;
         }
+        int pomoc;
+        pomoc = p[k];
+        p[k] = p[n];
+        p[n] = pomoc;
         cout << p[k] << " ";
     }
 }
