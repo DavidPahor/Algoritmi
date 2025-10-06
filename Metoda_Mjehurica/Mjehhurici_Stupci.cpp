@@ -1,13 +1,13 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-int main()
+int main10()
 {
 	int p[10][10];
 	bool promjena = true;
 	for (int i = 0; i < 10; i++)
 	{
-		for (int j = 0; j < 10; j++)
+		for (int j = 0; j < 10; j++)`
 		{
 			p[i][j] = rand() % 200 - 100;
 		}
