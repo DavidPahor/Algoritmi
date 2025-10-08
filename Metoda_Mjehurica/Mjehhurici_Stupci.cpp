@@ -1,7 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 using namespace std;
-int main10()
+int main2()
 {
 	int p[10][10];
 	bool promjena = true;
