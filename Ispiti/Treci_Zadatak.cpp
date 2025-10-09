@@ -5,30 +5,26 @@ using namespace std;
 int main3()
 {
     int p[100];
-    int n;
+    int k, n, t;
     int zb = 0;
     cin >> n;
-    bool sort = true;
-
-    while (1)
+    for (int k = 0; k < 3; k++)
     {
-        sort = true;
-        for (int i = 0; i < 99; i++) 
+        t = k;
+        n = k;
+        for (int t = 0; t < 99; t++)
         {
-            if (p[i] > p[i + 1]) {
-                int pomoc = p[i + 1];
-                p[i + 1] = p[i];
-                p[i] = pomoc;
-                sort = false;
+            if (p[n] > p[t]) {
+                n = t;
             }
         }
-        if (sort == true)
-            break;
+        int pomoc = p[k];
+        p[k] = p[n];
+        p[n] = pomoc;
     }
     for (int i = 0; i < n; i++)
     {
-        zb += p[99-i];
+        zb += p[99 - i];
     }
     cout << zb;
-    return 0;
 }
