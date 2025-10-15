@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Metoda_Mjehurica", "Metoda_
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ispiti", "Ispiti\Ispiti.vcxproj", "{C48A9138-A4CF-4874-A7D7-5A13AC87E620}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Funkcije", "Funkcije\Funkcije.vcxproj", "{E1D53B4A-1154-4271-8F6C-A6EF66E02762}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{C48A9138-A4CF-4874-A7D7-5A13AC87E620}.Release|x64.Build.0 = Release|x64
 		{C48A9138-A4CF-4874-A7D7-5A13AC87E620}.Release|x86.ActiveCfg = Release|Win32
 		{C48A9138-A4CF-4874-A7D7-5A13AC87E620}.Release|x86.Build.0 = Release|Win32
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Debug|x64.ActiveCfg = Debug|x64
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Debug|x64.Build.0 = Debug|x64
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Debug|x86.Build.0 = Debug|Win32
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Release|x64.ActiveCfg = Release|x64
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Release|x64.Build.0 = Release|x64
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Release|x86.ActiveCfg = Release|Win32
+		{E1D53B4A-1154-4271-8F6C-A6EF66E02762}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
