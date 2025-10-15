@@ -1,20 +1,43 @@
-// Funkcije.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <stdio.h>
+using namespace std;
 
 int main()
 {
-    std::cout << "Hello World!\n";
+	int a, b = 0, n, k = 0, d = 1, l, nb, zn = 0, d2, korak2, d3 = 1;
+	float korak1;
+	bool polindrom = false;
+	cin >> a;
+	n = a;
+	do {
+		n = n / 10;
+		b++;
+		d3 *= 10;
+	} while (n > 0);
+	if (b % 2 != 0) {
+		for (int i = 0; i < (b / 2); i++) {
+			d *= 10;
+			k++;
+		}
+		nb = a % d;
+		d2 = 1;
+		for (int i = 0; i < k; i++) {
+			korak1 = nb % d;
+			korak2 = korak1 / d * 10;
+			zn += korak2 * d2;
+			d /= 10;
+			d2 *= 10;
+		}
+
+		for (int i = 0; i < k; i++) {
+			d3 /= 10;
+		}
+		l = a / d3;
+
+		if (l == zn)
+		{
+			polindrom = true;
+		}
+	}
+	cout << polindrom;
 }
-
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
