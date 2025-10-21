@@ -125,6 +125,7 @@
   <ItemGroup>
     <ClCompile Include="Funkcija_return.cpp" />
     <ClCompile Include="Funkcije.cpp" />
+    <ClCompile Include="Funkcije_Argumenti.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -118,7 +118,7 @@ void palindrom()
 	return;
 }
 
-int main1()
+int main2()
 {
 	veci();
 	kvadrat();

@@ -21,5 +21,8 @@
     <ClCompile Include="Funkcija_return.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Funkcije_Argumenti.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

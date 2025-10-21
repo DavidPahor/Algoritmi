@@ -62,10 +62,11 @@ float rast() {
     return rast;
 }
 
-int main()
+int main1()
 {
     cout << povrsina() << endl;
     cout << zbroj() << endl;
     cout << znamenke() << endl;
     cout << rast() << endl;
+    return 0;
 }
