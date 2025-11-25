@@ -24,7 +24,7 @@ void sort(int* p, int n)
 	}
 }
 
-int main()
+int main4()
 {
 	int polje[10] = { 10,9,8,7,6,5,4,3,2,1 };
 	sort(&polje[0], 10);

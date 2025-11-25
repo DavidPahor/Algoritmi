@@ -127,6 +127,7 @@
     <ClCompile Include="Pokazivaci_niz.cpp" />
     <ClCompile Include="Pokazivaci_polje.cpp" />
     <ClCompile Include="Pokazivaci_sort.cpp" />
+    <ClCompile Include="Pokazivaci_ubaci.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
