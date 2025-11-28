@@ -17,7 +17,7 @@ void promjeni(char* p1, int n, string ubaci)
 	string promjeni = prvi + ubaci + drugi;
 }
 
-int main()
+int main5()
 {
 	string p1 = "Dobardan";
 	string p2 = "Test";

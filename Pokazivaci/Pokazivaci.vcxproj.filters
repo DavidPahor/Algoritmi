@@ -30,5 +30,8 @@
     <ClCompile Include="Pokazivaci_ubaci.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Razred.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
