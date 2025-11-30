@@ -123,6 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="E-dnevnik.cpp" />
     <ClCompile Include="Pokazivaci.cpp" />
     <ClCompile Include="Pokazivaci_niz.cpp" />
     <ClCompile Include="Pokazivaci_polje.cpp" />
