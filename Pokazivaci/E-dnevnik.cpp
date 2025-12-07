@@ -1,4 +1,5 @@
-﻿#include <stdio.h>
+﻿#include <math.h>
+#include <stdio.h>
 #include <iostream>
 using namespace std;
 int razmak(int uc, int pred)
@@ -11,7 +12,7 @@ int razmak(int uc, int pred)
 void upis(int* p, int uc, int pred, int oc)
 {
 	int razm = razmak(uc, pred), i = 0;
-	while (*(p+razm+i) != 0)
+	while (*(p + razm + i) != 0)
 		i++;
 	if (i < 10)
 		*(p + razm + i) = oc;
@@ -30,12 +31,12 @@ void ispis(int* p, int uc, int pred)
 			b++;
 		zb += *(p + razm + i);
 	}
-		if (b == 0)
-			cout << "Ucenik nema upisanih ocjena" << endl;
-		else {
-			float pros = zb / b;
-			cout << pros << endl;
-		}
+	if (b == 0)
+		cout << "Ucenik nema upisanih ocjena" << endl;
+	else {
+		float pros = zb / b;
+		cout << pros << endl;
+	}
 }
 
 void ispis2(int* p, int uc)
@@ -77,9 +78,10 @@ void ispis3(int* p)
 			}
 			float pros = zb * 1.0 / b;
 			razm += 10;
-			prospred += round(pros); 
+			prospred += round(pros);
 		}
-		uk = prospred * 1.0 /5;
+		uk = prospred * 1.0 / 5;
+		cout << uk << endl;
 	}
 }
 //int raz[7][5][10] = { 0 };
@@ -99,7 +101,7 @@ void ispis3(int* p)
 //		cout << endl;
 //	}
 //}
-int main()
+int main10()
 {
 	int raz[7][5][10] = {
 	{   // učenik 0
