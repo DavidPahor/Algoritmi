@@ -34,9 +34,9 @@ void parni_van(int* p)
 
 }
 
-int main()
+int main11()
 {
-	int polje[5] = { 1,4,2,5,0};
+	int polje[7] = {2,4,8,15,3,12,0};
 	parni_van(polje);
 	for (int i = 0; polje[i]!=0; i++)
 	{

@@ -36,5 +36,8 @@
     <ClCompile Include="Parni_Van.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Sah.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
