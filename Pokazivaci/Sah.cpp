@@ -53,14 +53,14 @@ void promjena(char* p, char* a, char* b)
 	prvi = *(b)-'a';
 	drugi = 8 - (*(b + 1) - 48);
 	figura_d = prvi + 8 * drugi;
+	*(p + figura_d) = 'x';
 
 	pomocna = *(p + figura_j);
 	*(p + figura_j) = *(p + figura_d);
 	*(p + figura_d) = pomocna;
-
 }
 
-int main()
+int main432()
 {
 	char polje[8][8];
 	restart(&polje[0][0]);
@@ -71,5 +71,5 @@ int main()
 	cin >> b;
 	promjena(&polje[0][0], &a[0], &b[0]);
 	ispisi(&polje[0][0]);
-
+	return 0;
 }
