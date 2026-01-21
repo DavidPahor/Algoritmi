@@ -21,5 +21,11 @@
     <ClCompile Include="..\Binarno_Pretrazivanje\Najveci_broj.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Binarni_zapis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Faktorijel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
