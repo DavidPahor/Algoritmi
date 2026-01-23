@@ -12,7 +12,7 @@ int bin(int n) {
 }
 
 
-int main3()
+int main4()
 {
 	int n;
 	cin >> n;

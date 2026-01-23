@@ -8,9 +8,10 @@ int faktorijel(int n, int i) {
 }
 
 
-int main()
+int main3()
 {
 	int n, i = 1;
 	cin >> n;
 	cout << faktorijel(n, i);
+	return 0;
 }

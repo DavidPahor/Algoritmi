@@ -27,5 +27,11 @@
     <ClCompile Include="Faktorijel.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Znamenke.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fibonacijev_niz.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

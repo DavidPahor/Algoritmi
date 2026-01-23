@@ -126,7 +126,9 @@
     <ClCompile Include="..\Binarno_Pretrazivanje\Najveci_broj.cpp" />
     <ClCompile Include="Binarni_zapis.cpp" />
     <ClCompile Include="Faktorijel.cpp" />
+    <ClCompile Include="Fibonacijev_niz.cpp" />
     <ClCompile Include="Umnozak.cpp" />
+    <ClCompile Include="Znamenke.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
