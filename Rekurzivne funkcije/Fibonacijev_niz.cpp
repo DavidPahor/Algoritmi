@@ -2,7 +2,6 @@
 using namespace std;
 
 int fab(int n, int i, int a, int b) {
-
 	if (i >= n)
 		return b;
 	a += b;
@@ -10,7 +9,7 @@ int fab(int n, int i, int a, int b) {
 }
 
 
-int main()
+int main7()
 {
 	int n, i = 0, a = 1, b = 0;
 	cin >> n;

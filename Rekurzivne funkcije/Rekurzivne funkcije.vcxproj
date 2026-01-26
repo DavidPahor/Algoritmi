@@ -127,6 +127,7 @@
     <ClCompile Include="Binarni_zapis.cpp" />
     <ClCompile Include="Faktorijel.cpp" />
     <ClCompile Include="Fibonacijev_niz.cpp" />
+    <ClCompile Include="ponavljanje.cpp" />
     <ClCompile Include="Umnozak.cpp" />
     <ClCompile Include="Znamenke.cpp" />
   </ItemGroup>
