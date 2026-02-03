@@ -20,9 +20,9 @@ void sort_g(int n, ucenik* r)
 			if ((*(r + i)).godina > (*(r + j)).godina)
 				p = j;
 		}
-		int pom = (*(r + p)).godina;
-		(*(r + p)).godina = (*(r + i)).godina;
-		(*(r + i)).godina = pom;
+		ucenik pom = (*(r + p));
+		(*(r + p)) = (*(r + i));
+		(*(r + i)) = pom;
 	}
 }
 
@@ -38,9 +38,9 @@ void sort_p(int n, ucenik* r)
 			if ((*(r + i)).prezime[0] > (*(r + j)).prezime[0])
 				p = j;
 		}
-		string pom = (*(r + p)).prezime;
-		(*(r + p)).prezime = (*(r + i)).prezime;
-		(*(r + i)).prezime = pom;
+		ucenik pom = (*(r + p));
+		(*(r + p)) = (*(r + i));
+		(*(r + i)) = pom;
 	}
 }
 
@@ -48,14 +48,14 @@ void sort_p(int n, ucenik* r)
 void ispis(int n, ucenik *r)
 {
 	sort_g(n, r);
+	sort_g(3, r);
 	for (int i = 0; i < 3; i++)
 	{
-		cout << (*(r + i)).ime;
-		cout << (*(r + i)).prezime;
-		cout << (*(r + i)).godina;
+		cout << (*(r + i)).ime<<" ";
+		cout << (*(r + i)).prezime<<" ";
+		cout << (*(r + i)).godina<<" ";
 		cout << endl;
 	}
-	sort_p(n, r);
 
 }
 
