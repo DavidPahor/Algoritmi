@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -124,10 +124,19 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\Binarno_Pretrazivanje\Najveci_broj.cpp" />
+    <ClCompile Include="666.cpp" />
     <ClCompile Include="Binarni_zapis.cpp" />
+    <ClCompile Include="Broj_3.cpp" />
     <ClCompile Include="Faktorijel.cpp" />
     <ClCompile Include="Fibonacijev_niz.cpp" />
+    <ClCompile Include="ispis.cpp" />
+    <ClCompile Include="ispis2.cpp" />
+    <ClCompile Include="najmanji.cpp" />
+    <ClCompile Include="niz.cpp" />
+    <ClCompile Include="paritet.cpp" />
+    <ClCompile Include="parni.cpp" />
     <ClCompile Include="ponavljanje.cpp" />
+    <ClCompile Include="postoji.cpp" />
     <ClCompile Include="Umnozak.cpp" />
     <ClCompile Include="Znamenke.cpp" />
   </ItemGroup>

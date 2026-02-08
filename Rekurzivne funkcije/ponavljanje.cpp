@@ -12,7 +12,7 @@ int pon(int *p, int *pr, int i) {
 	return br + 1;
 }
 
-int main()
+int main132()
 {
 	int p[10] = { 0,4,5,2,0,6,9,3,0,8 };
 	int pr[10] = { 0 };
